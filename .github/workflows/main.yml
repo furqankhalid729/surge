@@ -30,4 +30,4 @@ jobs:
         run: npm install --global surge
       
       - name: Deploy 
-        run: surge ./ prac.surge.sh --token ${{secerts.SURGE_TOKEN}}
+        run: surge ./ prac.surge.sh --token ${{secrets.SURGE_TOKEN}}
